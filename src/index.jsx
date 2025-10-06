@@ -29,6 +29,7 @@ export function App() {
 					<Route path="/profile" component={Profile} />
 					<Route path="/signin" component={SignIn} />
 					<Route path="/signup" component={SignUp} />
+					<Route path="/no-more" component={NotFound} />
 					<Route default component={NotFound} />
 				</Router>
 			</main>
